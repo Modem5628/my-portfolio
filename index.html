@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M. Punnam Chandrah | Cybersecurity Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; }
+    /* Gradient text animation */
+    .gradient-text {
+      background: linear-gradient(90deg, #00ffff, #ff00ff, #00ffff);
+      background-size: 300% 300%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient-animation 5s ease infinite;
+    }
+    @keyframes gradient-animation {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    /* Card hover effect */
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0, 255, 255, 0.5);
+    }
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="bg-[#0a192f] text-gray-300">
+
+  <!-- Header -->
+  <header class="text-center py-20 fade-in">
+    <!-- Profile Photo -->
+    <div class="flex justify-center mb-8">
+      <img src="images\profile.png.png" alt="Profile Photo"
+           class="w-48 h-48 rounded-full border-4 border-cyan-400 shadow-2xl transition-transform duration-500 hover:scale-110">
+    </div>
+
+    <!-- Name -->
+    <h1 class="text-5xl font-bold gradient-text mb-3">M. Punnam Chandrah</h1>
+
+    <!-- Description -->
+    <p class="text-lg text-gray-400 mb-1">Cybersecurity & Ethical Hacking Enthusiast</p>
+    <p class="text-sm text-gray-500">📍 India | 📧 modempc0622@gmail.com</p>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-6xl mx-auto px-6 space-y-12">
+
+    <!-- Objective -->
+    <section class="card bg-gradient-to-r from-[#112240] to-[#1f2a48] rounded-3xl p-8 shadow-lg transition-transform duration-300 fade-in">
+      <h2 class="text-3xl font-bold text-cyan-400 border-b border-cyan-500 pb-3 mb-4">🎯 Objective</h2>
+      <p class="text-gray-200 text-lg">To become a skilled <b>Cybersecurity Professional</b> specializing in <b>Ethical Hacking, Digital Forensics,</b> and <b>Threat Analysis</b>, helping organizations strengthen their security against modern threats.</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="card bg-gradient-to-r from-[#112240] to-[#1f2a48] rounded-3xl p-8 shadow-lg transition-transform duration-300 fade-in">
+      <h2 class="text-3xl font-bold text-cyan-400 border-b border-cyan-500 pb-3 mb-4">🧠 Skills</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-200 text-lg">
+        <li>Ethical Hacking (Reconnaissance, Scanning, Exploitation, Reporting)</li>
+        <li>Network Security (Firewalls, Subnetting, OSI/TCP Models)</li>
+        <li>Digital Forensics & Investigation Process</li>
+        <li>Phishing & Social Engineering Simulation (Gophish, ZPhisher)</li>
+        <li>Creative Editing</li>
+        <li>Operating Systems: Kali Linux, Ubuntu, Windows</li>
+        <li>Programming: Python, Bash, HTML</li>
+      </ul>
+    </section>
+
+    <!-- Tools -->
+    <section class="card bg-gradient-to-r from-[#112240] to-[#1f2a48] rounded-3xl p-8 shadow-lg transition-transform duration-300 fade-in">
+      <h2 class="text-3xl font-bold text-cyan-400 border-b border-cyan-500 pb-3 mb-4">🧩 Tools & Technologies</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-200 text-lg">
+        <li>Kali Linux, Ubuntu, Windows</li>
+        <li>Metasploit, Nmap, Wireshark</li>
+        <li>Burp Suite, Hydra, Hashcat, Aircrack-ng</li>
+        <li>Gophish, HiddenEye, SocialFish, ZPhisher</li>
+        <li>Autopsy, FTK Imager, Volatility</li>
+        <li>CapCut, Adobe Premiere Pro (AI Innovations)</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section class="card bg-gradient-to-r from-[#112240] to-[#1f2a48] rounded-3xl p-8 shadow-lg transition-transform duration-300 fade-in">
+      <h2 class="text-3xl font-bold text-cyan-400 border-b border-cyan-500 pb-3 mb-4">📚 Education</h2>
+      <p class="text-gray-200 text-lg">
+        <b>B.Tech – Cyber Security / Computer Science</b><br>
+        <b>SR University</b><br>
+        Focus: Information Security, Ethical Hacking, Digital Forensics, Network Security
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section class="card bg-gradient-to-r from-[#112240] to-[#1f2a48] rounded-3xl p-8 shadow-lg transition-transform duration-300 fade-in">
+      <h2 class="text-3xl font-bold text-cyan-400 border-b border-cyan-500 pb-3 mb-4">🧑‍💼 Projects</h2>
+
+      <!-- Example project photo -->
+      <div class="flex justify-center mb-6">
+        <img src="project.png" alt="Project Screenshot"
+             class="rounded-xl shadow-lg border-2 border-cyan-400 hover:scale-105 transition-transform duration-300">
+      </div>
+
+      <p class="text-gray-200 text-lg"><b>1. Steganography with Audio and Image</b> – Developed a system to hide confidential data within audio and image files for secure communication.(can veiw on my github page)</p>
+      <p class="mt-4 text-gray-200 text-lg"><b>2. Habit Tracker (Python)</b> – Created a Python application to track and compare daily habits for productivity improvement.(can veiw on my github page)</p>
+    </section>
+
+    <!-- Certifications -->
+    <section class="card bg-gradient-to-r from-[#112240] to-[#1f2a48] rounded-3xl p-8 shadow-lg transition-transform duration-300 fade-in">
+      <h2 class="text-3xl font-bold text-cyan-400 border-b border-cyan-500 pb-3 mb-4">🏅 Certifications</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-200 text-lg">
+        <li>CEH (Certified Ethical Hacker) – Planned</li>
+        <li>CompTIA Security+ – Planned</li>
+      </ul>
+    </section>
+
+    <!-- Personal Statement -->
+    <section class="card bg-gradient-to-r from-[#112240] to-[#1f2a48] rounded-3xl p-8 shadow-lg transition-transform duration-300 fade-in">
+      <h2 class="text-3xl font-bold text-cyan-400 border-b border-cyan-500 pb-3 mb-4">💬 Personal Statement</h2>
+      <p class="text-gray-200 text-lg">I’m passionate about understanding how hackers think and using that knowledge to protect systems. I enjoy experimenting with cybersecurity tools, ethical hacking simulations, and blending creativity with technology.</p>
+    </section>
+
+    <!-- Profiles -->
+    <section class="card bg-gradient-to-r from-[#112240] to-[#1f2a48] rounded-3xl p-8 shadow-lg transition-transform duration-300 fade-in text-center">
+      <h2 class="text-3xl font-bold text-cyan-400 border-b border-cyan-500 pb-3 mb-4">🔗 Profiles</h2>
+      <p class="text-gray-200 text-lg">
+        GitHub: <a href="https://github.com/Modem5628" class="text-cyan-400 hover:underline">https://github.com/Modem5628</a><br>
+        LinkedIn: <a href="#" class="text-cyan-400 hover:underline">your-linkedin-link</a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-8 text-gray-500 mt-12">
+    © 2025 M. Punnam Chandrah | Cybersecurity Portfolio
+  </footer>
+
+</body>
+</html>
